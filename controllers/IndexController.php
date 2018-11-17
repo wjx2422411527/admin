@@ -34,6 +34,8 @@ class IndexController{
     public function questionedit(){
         view("question-edit");
     }
-
+    public function welcome(){
+        view("welcome");
+    }
 }
 
